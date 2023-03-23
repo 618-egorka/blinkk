@@ -1,0 +1,28 @@
+{
+	"name": "blinkk",
+	"version": "0.0.1",
+	"description": "Discord бот для моего приватного майнкрафт сервера",
+	"main": "./bot/app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "node ./bot/deploy-commands.js",
+		"run": "node ./bot/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+618-egorka/blinkk.git"
+	},
+	"keywords": [
+		"discord",
+		"bot"
+	],
+	"author": "t.me/ef_618",
+	"license": "EPL-2.0",
+	"bugs": {
+		"url": "https://github.com/618-egorka/blinkk/issues"
+	},
+	"homepage": "https://github.com/618-egorka/blinkk#readme",
+	"dependencies": {
+		"discord.js": "^14.8.0"
+	}
+}
